@@ -12,7 +12,3 @@ def multiply_list(inputList):
         result *= int(number)
             
     return result
-
-inputList = input("Input: ").split()
-print("Input:[" + ", ".join(inputList) + "]")
-print("Output: ", multiply_list(inputList))
