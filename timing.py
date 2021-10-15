@@ -4,11 +4,11 @@ def calculate_time(func):
     
     def timer(*args, **kwargs):
         start_time = time.time()
-        x = func(*args, **kwargs)
+        value = func(*args, **kwargs)
         end_time = time.time()
         run_time = end_time - start_time
-        print(f'Total time X',run_time)
-        return x
+
+        return value
     return timer
 
 @calculate_time

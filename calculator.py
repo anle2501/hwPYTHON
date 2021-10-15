@@ -25,7 +25,3 @@ def parse_input():
 	number1 = float(user_input[0])
 	number2 = float(user_input[2])
 	operator = user_input[1]
-
-
-	print(calculator(number1, number2, operator))
-parse_input()

@@ -1,6 +1,6 @@
 def tripler(func):
-	def inner(*agrs):
+	def decor(*agrs):
 			func(*args)
 			func(*args)
 			func(*args)
-	return inner
+	return decor
