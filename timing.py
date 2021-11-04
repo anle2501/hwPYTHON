@@ -13,5 +13,5 @@ def calculate_time(func):
 
 @calculate_time
 def func():
-		time.sleep(2)
+	time.sleep(2)
 func()
